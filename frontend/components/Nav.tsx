@@ -1,0 +1,2 @@
+'use client';import {logout,user} from '@/lib/api';import Link from 'next/link';
+export default function Nav(){const u=user();return <div className="nav"><div><Link href="/dashboard"><b>Assignment Manager</b></Link>{u?.role==='Teacher'&&<Link href="/assignments/new">New Assignment</Link>}</div><div>{u&&<span>{u.name} ({u.role}) &nbsp;</span>}<button className="btn secondary" onClick={logout}>Logout</button></div></div>}

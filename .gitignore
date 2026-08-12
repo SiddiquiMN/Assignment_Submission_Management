@@ -1,0 +1,8 @@
+**/bin/
+**/obj/
+**/node_modules/
+**/.next/
+**/.env
+**/.env.local
+**/appsettings.Development.json
+.DS_Store

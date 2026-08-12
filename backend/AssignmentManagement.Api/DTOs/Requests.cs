@@ -1,0 +1,10 @@
+namespace AssignmentManagement.Api.DTOs;
+public record LoginRequest(string Email,string Password);
+public record CreateUserRequest(string Name,string Email,string Password,string Role,string? ClassId);
+public record CreateClassRequest(string Name,string Code);
+public record CreateSubjectRequest(string Name,string Code);
+public record AssignTeacherRequest(string TeacherId,string ClassId,string SubjectId);
+public record CreateAssignmentRequest(string Title,string Description,DateTime Deadline,int MaxMarks,string ClassId,string SubjectId,bool Publish);
+public record UpdateAssignmentRequest(string Title,string Description,DateTime Deadline,int MaxMarks,string ClassId,string SubjectId,bool Publish);
+public record CreateSubmissionRequest(string Answer);
+public record GradeSubmissionRequest(int Marks,string? Feedback,string Status);
