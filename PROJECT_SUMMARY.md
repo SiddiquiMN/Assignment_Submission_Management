@@ -25,8 +25,33 @@ A full-stack web application for managing school/college assignment workflows wi
 - Each assignment belongs to one class and one subject
 
 ## Quick Start
-1. `docker compose up -d` (MongoDB)
-2. `cd backend/AssignmentManagement.Api && dotnet restore && dotnet run` (API on :5000)
-3. `cd frontend && npm install && npm run dev` (Frontend on :3000)
-4. Login with demo credentials (see README.md)
+
+## Configure MongoDB
+
+`Open Docker first and then run the engine`
+`Then connect the MongoDB Compass`
+Example local connection:
+`mongodb://localhost:27017`
+
+## Run backend
+`docker compose up -d`
+`cd backend/AssignmentManagement.Api`
+`cp appsettings.Development.example.json appsettingsn`
+`dotnet restore`
+`dotnet run`
+
+API: `http://localhost:5050`
+Swagger: `http://localhost:5050/swagger`
+
+## Run frontend
+
+`cd frontend`
+`npm install`
+`npm run dev`
+
+
+Frontend: `http://localhost:3000`
+
+
+1. Login with demo credentials (see README.md)
 
