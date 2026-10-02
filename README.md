@@ -1,3 +1,13 @@
+<img width="1916" height="922" alt="Homepage" src="https://github.com/user-attachments/assets/3d95fbc2-6a4b-4076-b735-efd9e82dc66a" />
+<img width="1895" height="882" alt="Admin_Dashboard" src="https://github.com/user-attachments/assets/a34a4328-b924-4ba4-a766-ef94a1c723a0" />
+<img width="1882" height="841" alt="Assignment_creation_page" src="https://github.com/user-attachments/assets/636257f3-6e98-43da-9000-d3dce6ef037a" />
+<img width="1425" height="828" alt="Student_ans_submission" src="https://github.com/user-attachments/assets/81c523b9-5d06-4f09-be9d-03a1b26889a6" />
+<img width="1910" height="926" alt="Student_Dashboard" src="https://github.com/user-attachments/assets/647e38bf-7437-4bf1-9282-b75059e95d61" />
+<img width="1898" height="930" alt="Teacher_Dashboard" src="https://github.com/user-attachments/assets/1fd51f31-e751-4c00-9f84-d9ea1d355d7b" />
+<img width="1751" height="851" alt="Teacher_grade_feedback_page" src="https://github.com/user-attachments/assets/2ee0e7dd-c4eb-4edd-a92e-c1d5fed4af30" />
+
+
+
 # Assignment & Submission Management System
 
 Recruitment project implementation for a school/college assignment and submission workflow.
